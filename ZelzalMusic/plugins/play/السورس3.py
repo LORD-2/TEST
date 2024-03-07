@@ -18,7 +18,7 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/de2305f9dce5980e696c3.jpg",
+        photo=f"https://graph.org/file/5e1ad5aecaff30544be27.jpg",
         caption=f"""◉ 𝙽𝙰𝙼𝙴 : ❪َِ⤹᧗َِᖇ˛ َِ⋆˛ َِ𝙓.˛ᯤ‌❫
 ◉ 𝚄𝚂𝙴𝚁 : ❪ @MR_1X0❫
 ◉ 𝙲𝙷      : ❪ @T3_IG_AR_2 ❫
