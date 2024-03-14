@@ -12,7 +12,7 @@ from config import LOGGER_ID
 async def play_logs(message, streamtype):
     if await is_on_off(2):
         logger_text = f"""
-<b>━━━━━━✯ 𝗦𝗼𝘂𝗿𝗰𝗲 𝗟𝗼𝗿𝗱 ✯━━━━━━<b>
+<b>━━━━━✯ 𝗦𝗼𝘂𝗿𝗰𝗲 𝗟𝗼𝗿𝗱 ✯━━━━━<b>
 <b>𝅄 𓏺 𝖦𝗋𝗈𝗎𝗉 :<b> {message.chat.title}
 <b>━━━━━━━━━━━━━━━<b> 
 <b>𝅄 𓏺 𝖦𝗋𝗈𝗎𝗉 𝖨𝖣 :<b> <code>[{message.chat.id}]</code>
