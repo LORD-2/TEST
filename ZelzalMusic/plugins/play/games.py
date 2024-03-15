@@ -3,9 +3,9 @@ import re
 import requests
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
-from plugins.general import waitg_test
-from plugins.locks import lock_games_test, set_db_wait, lock_myphoto_test
-from plugins.rtp_function import sudo2
+from ZelzalMusic.general import waitg_test
+from ZelzalMusic.locks import lock_games_test, set_db_wait, lock_myphoto_test
+from ZelzalMusic.rtp_function import sudo2
 
 
 @Client.on_callback_query(filters.regex("^moderngame (\\d+)$"))
