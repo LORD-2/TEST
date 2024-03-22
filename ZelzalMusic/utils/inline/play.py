@@ -59,11 +59,12 @@ def stream_markup_timer(_, chat_id, played, dur):
         bar = "─────────⦷"
     buttons = [
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="𝑅𝑒𝑠𝑢𝑚𝑒", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="𝑃𝑎𝑢𝑠𝑒", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="𝑅𝑒𝑝𝑙𝑎𝑦", callback_data=f"ADMIN Replay|{chat_id}"),
+        ],[
+            InlineKeyboardButton(text="𝑆𝑘𝑖𝑝", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="𝑆𝑡𝑜𝑝", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
             InlineKeyboardButton(
@@ -80,11 +81,12 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="𝑅𝑒𝑠𝑢𝑚𝑒", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="𝑃𝑎𝑢𝑠𝑒", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="𝑅𝑒𝑝𝑙𝑎𝑦", callback_data=f"ADMIN Replay|{chat_id}"),
+        ],[
+            InlineKeyboardButton(text="𝑆𝑘𝑖𝑝", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="𝑆𝑡𝑜𝑝", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/OOOJ30")],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
