@@ -73,7 +73,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/OOOJ30"),
-        InlineKeyboardButton(text=_["ZTHON_BUTTON2"], url=f"https://t.me/M_4_M_C")],
+        InlineKeyboardButton(text=_["ZTHON_BUTTON2"], url=f"https://t.me/T3_ig_3R")],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -90,7 +90,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="𝑆𝑡𝑜𝑝", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/OOOJ30"),
-        InlineKeyboardButton(text=_["ZTHON_BUTTON2"], url=f"https://t.me/M_4_M_C")],
+        InlineKeyboardButton(text=_["ZTHON_BUTTON2"], url=f"https://t.me/T3_ig_3R")],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
