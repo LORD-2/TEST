@@ -18,7 +18,7 @@ def start_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["ZTHON_BUTTON"], url="https://t.me/OOOJ30"),
-            InlineKeyboardButton(text=_["ZTHON_BUTTON2"], url="https://t.me/M_4_M_C"),
+            InlineKeyboardButton(text=_["ZTHON_BUTTON2"], url="https://t.me/T3_ig_3R"),
         ],
         [
             InlineKeyboardButton(text=_["S_B_1"], url="https://t.me/{app.username}?startgroup=true"),
@@ -38,7 +38,7 @@ def private_panel(_):
         [InlineKeyboardButton(text=_["S_B_4"], callback_data="zzzback")],
         [
             InlineKeyboardButton(text=_["ZTHON_BUTTON"], url="https://t.me/OOOJ30"),
-            InlineKeyboardButton(text=_["ZTHON_BUTTON2"], url="https://t.me/M_4_M_C"),
+            InlineKeyboardButton(text=_["ZTHON_BUTTON2"], url="https://t.me/T3_ig_3R"),
         ],
         [
             InlineKeyboardButton(text=_["S_B_1"], url="https://t.me/{app.username}?startgroup=true"),
