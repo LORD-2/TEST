@@ -46,7 +46,7 @@ async def welcome(client, chat_member_updated):
 
 
 
-@app.on_message(filters.command("رفع لورد", "") & filters.channel)
+@app.on_message(filters.command("رفع مشرف", "") & filters.channel)
 def promote_c_admin(client, message):
     if message.reply_to_message and message.reply_to_message.from_user:
         target = message.reply_to_message.from_user.id
@@ -89,7 +89,7 @@ def promote_c_admin(client, message):
 
 
 
-@app.on_message(filters.command("رفع لورد", "") & filters.group)
+@app.on_message(filters.command("رفع مشرف", "") & filters.group)
 def promote_g_admin(client, message):
     if message.reply_to_message and message.reply_to_message.from_user:
         target = message.reply_to_message.from_user.id
